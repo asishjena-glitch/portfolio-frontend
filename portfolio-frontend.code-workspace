@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "portfolio-frontend",
+			"path": "."
+		},
+		{
+			"name": "frontend1",
+			"path": "../../frontend1"
+		}
+	],
+	"settings": {}
+}
