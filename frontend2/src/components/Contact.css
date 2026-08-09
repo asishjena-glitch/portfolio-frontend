@@ -1,0 +1,145 @@
+.contact{
+
+    padding:100px 20px;
+
+    background:#111827;
+
+    text-align:center;
+
+}
+
+
+
+.contact h1{
+
+    font-size:50px;
+
+    color:white;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.contact p{
+
+    color:#9ca3af;
+
+    font-size:18px;
+
+    margin-bottom:40px;
+
+}
+
+
+
+.contact form{
+
+    max-width:650px;
+
+    margin:auto;
+
+    padding:40px;
+
+    background:rgba(31,41,55,0.8);
+
+    border:1px solid #374151;
+
+    border-radius:25px;
+
+    box-shadow:0 0 30px rgba(59,130,246,0.2);
+
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+
+
+.contact input,
+.contact textarea{
+
+
+    width:100%;
+
+    padding:16px;
+
+    background:#111827;
+
+    border:1px solid #374151;
+
+    color:white;
+
+    border-radius:12px;
+
+    font-size:16px;
+
+    outline:none;
+
+    transition:0.3s;
+
+}
+
+
+
+.contact input:focus,
+.contact textarea:focus{
+
+    border-color:#3b82f6;
+
+    box-shadow:0 0 15px rgba(59,130,246,0.5);
+
+}
+
+
+
+.contact textarea{
+
+    height:160px;
+
+    resize:none;
+
+}
+
+
+
+.contact button{
+
+    padding:16px;
+
+    background:linear-gradient(
+        90deg,
+        #2563eb,
+        #06b6d4
+    );
+
+    color:white;
+
+    border:none;
+
+    border-radius:30px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+
+
+.contact button:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 0 25px rgba(6,182,212,0.6);
+
+}
