@@ -1,6 +1,6 @@
+import profile from "../assets/profile.jpeg";
 import { useEffect, useState } from "react";
 import "./Hero.css";
-import profile from "../assets/hero.jpeg";
 function Hero() {
   const roles=[
     "Full Stack Developer",
